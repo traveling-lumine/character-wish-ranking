@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/character-markov.iml" filepath="$PROJECT_DIR$/.idea/character-markov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/character-wish-ranking.iml" filepath="$PROJECT_DIR$/.idea/character-wish-ranking.iml" />
     </modules>
   </component>
 </project>
