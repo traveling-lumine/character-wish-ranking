@@ -1,10 +1,10 @@
-name: Package Application with Pyinstaller
+name: Lint & CD
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   lint:
