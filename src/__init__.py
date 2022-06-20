@@ -1,3 +1,4 @@
+from birthday import generate_happy_birthday
 from calculator import Calculator
 from reviewer import Reviewer
 from src.locale import Locale, StringId, LocaleEnum
@@ -21,6 +22,7 @@ class Main:
 
     def run(self):
         self.set_lang()
+        generate_happy_birthday()
         bank = self.run_process()
         rev = Reviewer(bank, self.ignore_loses)
         rev.review_result()
