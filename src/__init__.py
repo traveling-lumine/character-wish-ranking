@@ -1,6 +1,6 @@
-from birthday import generate_happy_birthday
-from calculator import Calculator
-from reviewer import Reviewer
+from src.birthday import generate_happy_birthday
+from src.calculator import Calculator
+from src.reviewer import Reviewer
 from src.locale import Locale, StringId, LocaleEnum
 
 
