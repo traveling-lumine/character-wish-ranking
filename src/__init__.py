@@ -1,5 +1,5 @@
 from calculator import Calculator
-from revier import Reviewer
+from reviewer import Reviewer
 from src.locale import Locale, StringId, LocaleEnum
 
 
