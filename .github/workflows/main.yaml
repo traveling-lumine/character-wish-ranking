@@ -20,3 +20,4 @@ jobs:
       with:
         name: Result executable
         path: src/dist/windows
+        retention-days: 7

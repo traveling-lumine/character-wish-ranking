@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src import Locale, StringId
+from src.locale import Locale, StringId
 
 
 @dataclass(frozen=True)

@@ -1,8 +1,8 @@
-from src import Calculator
+from src import Main
 
 
 def main():
-    calculator = Calculator()
+    calculator = Main()
     calculator.run()
 
 
