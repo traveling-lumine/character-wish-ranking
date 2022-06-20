@@ -85,7 +85,7 @@ class Locale:
     _cur = LocaleEnum.en
     locale_dict = {
         StringId.happy_birthday: {
-            LocaleEnum.en: "Happy birthday, {0}",
+            LocaleEnum.en: "Happy birthday, {0}!",
             LocaleEnum.kr: "{0}, 생일 축하해!"
         },
         StringId.thoma: {
