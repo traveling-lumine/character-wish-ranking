@@ -29,10 +29,261 @@ class StringId(IntEnum):
     state_desc_format = auto()
     invalid_input = auto()
 
+    thoma = auto()
+    diona = auto()
+    rosaria = auto()
+    beidou = auto()
+    sangonomiya_kokomi = auto()
+    bennett = auto()
+    qiqi = auto()
+    shenhe = auto()
+    jean = auto()
+    noelle = auto()
+    kamisato_ayato = auto()
+    aloy = auto()
+    xiao = auto()
+    yelan = auto()
+    diluc = auto()
+    gorou = auto()
+    yun_jin = auto()
+    fischl = auto()
+    arataki_itto = auto()
+    paimon = auto()
+    lisa = auto()
+    venti = auto()
+    naganohara_yoimiya = auto()
+    raiden_shogun = auto()
+    yae_miko = auto()
+    barbara = auto()
+    kujou_sara = auto()
+    hu_tao = auto()
+    tartaglia = auto()
+    klee = auto()
+    yanfei = auto()
+    amber = auto()
+    ningguang = auto()
+    mona = auto()
+    chongyun = auto()
+    razor = auto()
+    albedo = auto()
+    kamisato_ayaka = auto()
+    xingqiu = auto()
+    xinyan = auto()
+    sayu = auto()
+    eula = auto()
+    kaedehara_kazuha = auto()
+    xiangling = auto()
+    keqing = auto()
+    sucrose = auto()
+    kaeya = auto()
+    ganyu = auto()
+    zhongli = auto()
+    happy_birthday = auto()
+
 
 class Locale:
     _cur = LocaleEnum.en
     locale_dict = {
+        StringId.happy_birthday: {
+            LocaleEnum.en: "Happy birthday, {0}",
+            LocaleEnum.kr: "{0}, 생일 축하해!"
+        },
+        StringId.thoma: {
+            LocaleEnum.en: "Thoma",
+            LocaleEnum.kr: "토마"
+        },
+        StringId.diona: {
+            LocaleEnum.en: "Diona",
+            LocaleEnum.kr: "디오나"
+        },
+        StringId.rosaria: {
+            LocaleEnum.en: "Rosaria",
+            LocaleEnum.kr: "로자리아"
+        },
+        StringId.beidou: {
+            LocaleEnum.en: "Beidou",
+            LocaleEnum.kr: "북두"
+        },
+        StringId.sangonomiya_kokomi: {
+            LocaleEnum.en: "Sangonomiya Kokomi",
+            LocaleEnum.kr: "산고노미야 코코미"
+        },
+        StringId.bennett: {
+            LocaleEnum.en: "Bennett",
+            LocaleEnum.kr: "베넷"
+        },
+        StringId.qiqi: {
+            LocaleEnum.en: "Qiqi",
+            LocaleEnum.kr: "치치"
+        },
+        StringId.shenhe: {
+            LocaleEnum.en: "Shenhe",
+            LocaleEnum.kr: "신학"
+        },
+        StringId.jean: {
+            LocaleEnum.en: "Jean",
+            LocaleEnum.kr: "진"
+        },
+        StringId.noelle: {
+            LocaleEnum.en: "Noelle",
+            LocaleEnum.kr: "노엘"
+        },
+        StringId.kamisato_ayato: {
+            LocaleEnum.en: "Kamisato Ayato",
+            LocaleEnum.kr: "카미사토 아야토"
+        },
+        StringId.aloy: {
+            LocaleEnum.en: "Aloy",
+            LocaleEnum.kr: "에일로이"
+        },
+        StringId.xiao: {
+            LocaleEnum.en: "Xiao",
+            LocaleEnum.kr: "소"
+        },
+        StringId.yelan: {
+            LocaleEnum.en: "Yelan",
+            LocaleEnum.kr: "야란"
+        },
+        StringId.diluc: {
+            LocaleEnum.en: "Diluc",
+            LocaleEnum.kr: "다이루크"
+        },
+        StringId.gorou: {
+            LocaleEnum.en: "Gorou",
+            LocaleEnum.kr: "고로"
+        },
+        StringId.yun_jin: {
+            LocaleEnum.en: "Yun Jin",
+            LocaleEnum.kr: "운근"
+        },
+        StringId.fischl: {
+            LocaleEnum.en: "Fischl",
+            LocaleEnum.kr: "피슬"
+        },
+        StringId.arataki_itto: {
+            LocaleEnum.en: "Arataki Itto",
+            LocaleEnum.kr: "아라타키 이토"
+        },
+        StringId.paimon: {
+            LocaleEnum.en: "Paimon",
+            LocaleEnum.kr: "페이몬"
+        },
+        StringId.lisa: {
+            LocaleEnum.en: "Lisa",
+            LocaleEnum.kr: "리사"
+        },
+        StringId.venti: {
+            LocaleEnum.en: "Venti",
+            LocaleEnum.kr: "벤티"
+        },
+        StringId.naganohara_yoimiya: {
+            LocaleEnum.en: "Naganohara Yoimiya",
+            LocaleEnum.kr: "나가노하라 요이미야"
+        },
+        StringId.raiden_shogun: {
+            LocaleEnum.en: "Raiden Shogun",
+            LocaleEnum.kr: "라이덴 쇼군"
+        },
+        StringId.yae_miko: {
+            LocaleEnum.en: "Yae Miko",
+            LocaleEnum.kr: "야에 미코"
+        },
+        StringId.barbara: {
+            LocaleEnum.en: "Barbara",
+            LocaleEnum.kr: "바바라"
+        },
+        StringId.kujou_sara: {
+            LocaleEnum.en: "Kujou Sara",
+            LocaleEnum.kr: "쿠죠 사라"
+        },
+        StringId.hu_tao: {
+            LocaleEnum.en: "Hu Tao",
+            LocaleEnum.kr: "호두"
+        },
+        StringId.tartaglia: {
+            LocaleEnum.en: "Tartaglia",
+            LocaleEnum.kr: "타르탈리아"
+        },
+        StringId.klee: {
+            LocaleEnum.en: "Klee",
+            LocaleEnum.kr: "클레"
+        },
+        StringId.yanfei: {
+            LocaleEnum.en: "Yanfei",
+            LocaleEnum.kr: "연비"
+        },
+        StringId.amber: {
+            LocaleEnum.en: "Amber",
+            LocaleEnum.kr: "엠버"
+        },
+        StringId.ningguang: {
+            LocaleEnum.en: "Ningguang",
+            LocaleEnum.kr: "응광"
+        },
+        StringId.mona: {
+            LocaleEnum.en: "Mona",
+            LocaleEnum.kr: "모나"
+        },
+        StringId.chongyun: {
+            LocaleEnum.en: "Chongyun",
+            LocaleEnum.kr: "중운"
+        },
+        StringId.razor: {
+            LocaleEnum.en: "Razor",
+            LocaleEnum.kr: "레이저"
+        },
+        StringId.albedo: {
+            LocaleEnum.en: "Albedo",
+            LocaleEnum.kr: "알베도"
+        },
+        StringId.kamisato_ayaka: {
+            LocaleEnum.en: "Kamisato Ayaka",
+            LocaleEnum.kr: "카미사토 아야카"
+        },
+        StringId.xingqiu: {
+            LocaleEnum.en: "Xingqiu",
+            LocaleEnum.kr: "행추"
+        },
+        StringId.xinyan: {
+            LocaleEnum.en: "Xinyan",
+            LocaleEnum.kr: "신염"
+        },
+        StringId.sayu: {
+            LocaleEnum.en: "Sayu",
+            LocaleEnum.kr: "사유"
+        },
+        StringId.eula: {
+            LocaleEnum.en: "Eula",
+            LocaleEnum.kr: "유라"
+        },
+        StringId.kaedehara_kazuha: {
+            LocaleEnum.en: "Kaedehara Kazuha",
+            LocaleEnum.kr: "카에데하라 카즈하"
+        },
+        StringId.xiangling: {
+            LocaleEnum.en: "Xiangling",
+            LocaleEnum.kr: "향릉"
+        },
+        StringId.keqing: {
+            LocaleEnum.en: "Keqing",
+            LocaleEnum.kr: "각청"
+        },
+        StringId.sucrose: {
+            LocaleEnum.en: "Sucrose",
+            LocaleEnum.kr: "설탕"
+        },
+        StringId.kaeya: {
+            LocaleEnum.en: "Kaeya",
+            LocaleEnum.kr: "케이아"
+        },
+        StringId.ganyu: {
+            LocaleEnum.en: "Ganyu",
+            LocaleEnum.kr: "감우" 
+        },
+        StringId.zhongli: {
+            LocaleEnum.en: "Zhongli",
+            LocaleEnum.kr: "종려"
+        },
         StringId.invalid_input: {
             LocaleEnum.en: "Invalid input.",
             LocaleEnum.kr: "올바르지 않은 입력입니다."
